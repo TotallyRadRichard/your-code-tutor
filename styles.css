@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 16pt;
+  background: #39893c;
+}
+
+a {
+  color: #fff;
+}
+
+p, ul {
+  line-height: 1.3em;
+}
+
+p {
+  margin: 14px 0;
+  text-align: justify;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left: 2.5em;
+}
+
+li {
+  margin: 20px 0;
+  text-indent: -1.4em;
+}
+
+#main {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  margin: 20px 0;
+  font-size: 24pt;
+  text-align: center;
+}
+
+nav {
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+nav a {
+  margin: 0 5px;
+  text-decoration: none;
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px;
+  letter-spacing: 2px;
+}
+
+footer {
+  height: 50vh;
+}
+
+#contact a {
+  padding: 0 5pt;
+  border-radius: 15%;
+}
+
+#contact a:hover {
+  color: #39893c;
+  background: #fff;
+}
+
+.section-header {
+  display: block;
+  margin: 30px auto;
+}
+
+#schedule {
+  margin: 25px 0;
+  text-align: center;
+}
+
+#schedule a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em 2em;
+  color: #39893c;
+  font-size: 20pt;
+  background: #fff;
+  border-radius: 1em;
+}
+
+@media (max-width: 959px) {
+  #main {
+    width: 100%;
+  }
+
+  ul {
+    margin-right: 20px;  
+  }
+
+  p {
+    padding: 0 20px;
+    text-align: left;
+  }
+
+  nav a {
+    display: block;
+    margin: 20px 0;
+  }
+}
